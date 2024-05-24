@@ -48,7 +48,7 @@ This Node.js API was maded to learn several Node.js concepts.
     <span style="background-color: #8f8838;color: white;padding: 4px 8px;">PATCH</span> **Update partial product**
     ```bash
     curl --request PATCH \
-        --url http://localhost:3000/api/v1/products/639b8233-6381-4c9a-a0fc-c61cda0b1d7e \
+        --url http://localhost:9001/api/v1/products/639b8233-6381-4c9a-a0fc-c61cda0b1d7e \
         --header 'Content-Type: application/json' \
         --data '{
             "name": "Changed product name",
@@ -59,7 +59,7 @@ This Node.js API was maded to learn several Node.js concepts.
     <span style="background-color: #974231;color: white;padding: 4px 8px;">DELETE</span> **Delete product**
     ```bash
     curl --request DELETE \
-        --url http://localhost:3000/api/v1/products/cb2c30d1-f992-49ba-8bee-514c922e4b51
+        --url http://localhost:9001/api/v1/products/cb2c30d1-f992-49ba-8bee-514c922e4b51
     ```
 
 > **NOTE:** an [insomnia.json](./insomnia.json) collection is available for importing all requests and test the API.
